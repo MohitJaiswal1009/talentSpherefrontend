@@ -6,10 +6,10 @@ export default defineConfig({
   plugins: [react()],
   server: {
     host: '0.0.0.0',
-    port: 3000, // Ensure the port number matches Render’s expected port
+    port: 10000, // Ensure the port number matches Render’s expected port
   },
   preview: {
     host: '0.0.0.0',
-    port: 3000, // Use the same port for preview
+    port: 10000, // Use the same port for preview
   },
 })
